@@ -1,5 +1,4 @@
 module.exports = {
-  devtool: 'eval',
   entry: [
     './src/index.js'
   ],
@@ -23,24 +22,5 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
-  ],
-
-  module: {
-    loaders: [
-      { test: /\.js?$/,
-        loader: 'babel',
-        exclude: path.join(__dirname, 'node_modules') },
-      { test: /\.scss?$/,
-        loader: 'style!css!sass',
-        include: path.join(__dirname, 'src', 'styles') },
-      { test: /\.png$/,
-        loader: 'file' },
-      { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        loader: 'file'}
-    ]
   }
 };
