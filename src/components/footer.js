@@ -12,10 +12,10 @@ export default class Footer extends Component {
             <Mailto email="tdunn1248@gmail.com" obfuscate={true} >
               <img className='social' src='src/public/images/email.png' />
             </Mailto>
-            <a href=''>
+            <a href='https://github.com/tdunn1248' target='_blank'>
               <img className='social' src='src/public/images/GitHub-Mark-64px.png' />
             </a>
-            <a href=''>
+            <a href='https://www.linkedin.com/in/thomas-dunn-4ab0445b/' target='_blank'>
               <img className='social' src='src/public/images/linked-in.jpg' />
             </a>
           </div>
