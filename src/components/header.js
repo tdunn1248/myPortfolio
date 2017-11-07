@@ -9,6 +9,7 @@ import FlatButton from 'material-ui/FlatButton';
 import Toggle from 'material-ui/Toggle';
 import Menu from 'material-ui/svg-icons/navigation/menu';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
+import Divider from 'material-ui/Divider'
 
 const Logged = () => (
   <IconMenu
@@ -20,7 +21,8 @@ const Logged = () => (
   >
     <MenuItem primaryText="Home" />
     <MenuItem primaryText="Projects" href='#projects' />
-    <MenuItem primaryText="Contact" href='#contact'/>
+    <Divider />
+    <MenuItem primaryText="Contact / Resume" href='#contact'/>
   </IconMenu>
 );
 
@@ -35,7 +37,7 @@ export default class Header extends Component {
         showMenuIconButton={false}
         iconElementRight={<Logged />}
         iconElementLeft={null}
-        title="TD"
+        title='Thomas Dunn'
         style={{backgroundColor : 424242}}
       />
     )

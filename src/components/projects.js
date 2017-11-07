@@ -58,10 +58,25 @@ export default class Projects extends Component {
             </div>
           </div>
         </div> */}
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard
+          title={'National Parks'}
+          subtitle={'Api for parks'}
+          link={'https://rocky-cove-38909.herokuapp.com/'}
+          image= {'src/public/images/part-2.png'}
+          style={{backgroundColor: 'red'}}
+        />
+        <ProjectCard
+          title={'Jason Laumeyer Photography'}
+          subtitle={'A Photography showcase'}
+          link={'https://rocky-cove-38909.herokuapp.com/'}
+          image= {'src/public/images/jason-laumeyer.09.46 PM.png'}/>
 
       </div>
     )
   }
 }
+
+// props.link
+// props.title
+// props.subtitle
+// props.projectPhoto
