@@ -8,6 +8,7 @@ export default class GoogleMap extends Component {
         lat: 37.7749,
         lng: -122.4194
       },
+      mapTypeId: 'terrain',
       styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
