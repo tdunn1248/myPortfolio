@@ -10,7 +10,7 @@ export default class StackLogos extends Component {
     return (
       <div className='stack-container' style={style}>
         <div className='stack-logo-container'>
-          <img className='js-logo' src='src/public/images/Javascript-logo.png' />
+          <img className='js-logo' src='src/public/images/JavaScript-logo.png' />
           <img className='stack-logo' src='src/public/images/react-redux.png' />
           <img className='stack-logo' src='src/public/images/nodejs.png' />
           <img className='stack-logo' src='src/public/images/postgresql.jpg' />
