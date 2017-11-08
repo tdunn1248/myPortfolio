@@ -5,8 +5,8 @@ import MailIcon from 'material-ui/svg-icons/content/mail'
 export default class Footer extends Component {
   render() {
     return (
-      <footer>
-        <div  id='contact' className='contact-contain'>
+      <footer id='contact'>
+        <div className='contact-contain'>
           <img className='profile-pic' src='src/public/images/profile-pic.jpg' />
           <div className='social-container'>
             <Mailto email="tdunn1248@gmail.com" obfuscate={true} >

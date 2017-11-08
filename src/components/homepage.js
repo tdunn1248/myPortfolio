@@ -12,11 +12,13 @@ export default class HomePageBackground extends Component {
               Based out of the San Francisco Bay Area,
               I enjoy working across the stack to bring ideas and useful services to life.
             </h6>
-            <button href='#contact' className='btn contact-btn'>
-              Looking to Hire?
+            <a href='#contact'>
+              <button className='btn contact-btn'>
+                Looking to Hire?
 
-            <KeyBoardRightArrow />
-          </button>
+                <KeyBoardRightArrow />
+              </button>
+            </a>
           </div>
         </div>
       </div>
