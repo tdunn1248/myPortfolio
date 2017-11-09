@@ -197,7 +197,8 @@ html, body, .main, .app {
 
 .stack-logo-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   background-color: #37474F;
   flex: 1;
   flex-wrap: wrap;
@@ -218,18 +219,22 @@ html, body, .main, .app {
   color: black;
 }
 
+.stack-logo,
+.js-logo {
+  height: 100px;
+  margin-top: 1em;
+  margin-right: 1em;
+  border-radius: .5em;
+
+}
+
 .js-logo {
   width: 120px;
-  height: 100px;
-  border-radius: .5em;
-  margin-top: 1em;
+  margin-right: 2em;
 }
 
 .stack-logo {
   width: 145px;
-  height: 100px;
-  border-radius: .5em;
-  margin-top: 1em;
 }
 
 .google-map-contain {
