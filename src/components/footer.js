@@ -9,14 +9,17 @@ export default class Footer extends Component {
         <div className='contact-contain'>
           <img className='profile-pic' src='src/public/images/profile-pic.jpg' />
           <div className='social-container'>
+            <a className='a-resume' href= 'src/public/Resume - TDunn.pdf' target='_blank'>
+              <span className='social resume-social'>Resume</span>
+            </a>
             <Mailto email="tdunn1248@gmail.com" obfuscate={true} >
               <img className='social' src='src/public/images/email.png' />
             </Mailto>
-            <a href='https://github.com/tdunn1248' target='_blank'>
-              <img className='social' src='src/public/images/GitHub-Mark-64px.png' />
-            </a>
             <a href='https://www.linkedin.com/in/thomas-dunn-4ab0445b/' target='_blank'>
               <img className='social' src='src/public/images/linked-in.jpg' />
+            </a>
+            <a href='https://github.com/tdunn1248' target='_blank'>
+              <img className='social' src='src/public/images/GitHub-Mark-64px.png' />
             </a>
           </div>
         </div>
