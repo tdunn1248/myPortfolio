@@ -166,9 +166,26 @@ html, body, .main, .app {
   align-items: center;
 }
 
-.project-card a img{
+.project-card img {
   height: 250px;
   /*width: 350px;*/
+}
+
+.project-card h2,
+.project-card p {
+  color: white;
+  text-decoration: none;
+}
+
+.a-project-card:hover {
+  color: pink;
+  text-decoration: none;
+}
+.project-card h2:hover,
+.project-card p:hover,
+.project-card img:hover {
+  color: blue;
+  text-decoration: none;
 }
 
 .stack-container {
@@ -256,5 +273,6 @@ footer {
   align-items: center;
   justify-content: center;
   min-height: 100px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }

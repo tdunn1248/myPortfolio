@@ -2,13 +2,13 @@ import React from 'react';
 
 const ProjectCard = (props) => (
   <div className='project-card'>
-    <div className='card-info'>
-      <a href={props.link} target='_blank'>
+    <a className='a-project-card' href={props.link} target='_blank'>
+      <div className='card-info'>
         <img src={props.image} alt="" />
-      </a>
-      <h2>{props.title}</h2>
-      <p>{props.subtitle}</p>
-    </div>
+        <h2>{props.title}</h2>
+        <p>{props.subtitle}</p>
+      </div>
+    </a>
   </div>
 );
 
