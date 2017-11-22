@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
-// import NavBar from './navbar'
 import AppBar from 'material-ui/AppBar';
-import lightBlue800 from 'material-ui/styles/colors'
 import IconButton from 'material-ui/IconButton';
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
-import FlatButton from 'material-ui/FlatButton';
-import Toggle from 'material-ui/Toggle';
 import Menu from 'material-ui/svg-icons/navigation/menu';
-import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import Divider from 'material-ui/Divider'
 
 const Logged = () => (
@@ -39,7 +34,8 @@ export default class Header extends Component {
         iconElementLeft={null}
         title='Thomas Dunn'
         style={{backgroundColor : 424242}}
-      />
+      >
+      </AppBar>
     )
   }
 }

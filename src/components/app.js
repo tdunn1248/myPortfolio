@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header'
 import Footer from './footer'
+import FooterHeart from './footer-heart'
 import HomePageBackground from './homepage'
 import GoogleMap from './google_map'
 import Projects from './projects'
@@ -12,10 +13,12 @@ import Section from './section'
 import Item from './item'
 
 const style = {
-  backgroundColor: blueGrey500
+  gridList: {
+    backgroundColor: blueGrey500
+  }
+
 }
 
-// fix button 
 export default class App extends Component {
   render() {
     return (
@@ -23,7 +26,7 @@ export default class App extends Component {
         <div id='app' className='app'>
           <Header  />
           <HomePageBackground />
-          <GridListExampleSingleLine style={style}/>
+          <GridListExampleSingleLine style={style.gridList}/>
           <ProjectsHeader />
           <Section >
             <Projects />
@@ -32,6 +35,7 @@ export default class App extends Component {
             <GoogleMap />
           </Section>
           <Footer />
+          <FooterHeart />
         </div>
       </MuiThemeProvider>
     );

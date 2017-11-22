@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const ProjectCard = (props) => (
   <div className='project-card'>
@@ -12,4 +12,4 @@ const ProjectCard = (props) => (
   </div>
 );
 
-export default ProjectCard;
+export default ProjectCard

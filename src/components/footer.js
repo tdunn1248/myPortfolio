@@ -6,8 +6,8 @@ export default class Footer extends Component {
   render() {
     return (
       <footer id='contact'>
+        <img className='profile-pic' src='src/public/images/profile-pic.jpg' />
         <div className='contact-contain'>
-          <img className='profile-pic' src='src/public/images/profile-pic.jpg' />
           <div className='social-container'>
             <a className='a-resume' href= 'src/public/Resume - TDunn.pdf' target='_blank'>
               <span className='social resume-social'>Resume</span>
