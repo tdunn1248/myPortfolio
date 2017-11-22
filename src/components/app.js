@@ -16,7 +16,6 @@ const style = {
   gridList: {
     backgroundColor: blueGrey500
   }
-
 }
 
 export default class App extends Component {
