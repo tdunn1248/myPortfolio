@@ -167,6 +167,7 @@ html, body, .main, .app {
 }
 
 .project-card img {
+  border-radius: .5em;
   height: 250px;
   /*width: 350px;*/
 }
@@ -235,6 +236,10 @@ html, body, .main, .app {
 
 .stack-logo {
   width: 145px;
+}
+
+.psql {
+  width: 135px;
 }
 
 .google-map-contain {

@@ -18,6 +18,11 @@ export default class Projects extends Component {
           subtitle={'a photography showcase for a local photographer'}
           link={'https://rocky-cove-38909.herokuapp.com/'}
           image= {'src/public/images/jason-laumeyer.09.46 PM.png'}/>
+        <ProjectCard
+          title={'Washee'}
+          subtitle={'a web app connecting car washers with customers using React & Redux and Google\'s Firebase database service'}
+          image= {'src/public/images/wip.jpg'}
+          />
 
       </div>
     )

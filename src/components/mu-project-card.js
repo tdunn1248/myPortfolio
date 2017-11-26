@@ -7,6 +7,7 @@ const ProjectCard = (props) => (
         <img src={props.image} alt="" />
         <h2>{props.title}</h2>
         <p>{props.subtitle}</p>
+        <p>{props.underConstruction} </p>
       </div>
     </a>
   </div>

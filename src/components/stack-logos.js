@@ -13,7 +13,7 @@ export default class StackLogos extends Component {
           <img className='js-logo' src='src/public/images/JavaScript-logo.png' />
           <img className='stack-logo' src='src/public/images/react-redux.png' />
           <img className='stack-logo' src='src/public/images/nodejs.png' />
-          <img className='stack-logo' src='src/public/images/postgresql.jpg' />
+          <img className='stack-logo psql' src='src/public/images/postgresql.jpg' />
         </div>
       </div>
     )
