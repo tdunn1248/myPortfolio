@@ -189,6 +189,11 @@ html, body, .main, .app {
   text-decoration: none;
 }
 
+#projects:last-child a .card-info img:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .stack-container {
   display: flex;
   margin-bottom: 2em;

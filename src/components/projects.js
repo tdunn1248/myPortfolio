@@ -7,6 +7,7 @@ export default class Projects extends Component {
     return (
       <div id='projects' >
         <ProjectCard
+          className='hover-blue'
           title={'National Parks'}
           subtitle={'Find current National Park information including park descriptions, weather info, and sunset times. Check out your favorite parks from above with the Google Satellite map'}
           link={'https://shielded-plateau-63294.herokuapp.com/'}
@@ -14,13 +15,15 @@ export default class Projects extends Component {
           style={{backgroundColor: 'red'}}
         />
         <ProjectCard
+          className='hover-blue'
           title={'Jason Laumeyer Photography'}
           subtitle={'a photography showcase for a local photographer'}
           link={'https://rocky-cove-38909.herokuapp.com/'}
           image= {'src/public/images/jason-laumeyer.09.46 PM.png'}/>
         <ProjectCard
           title={'Washee'}
-          subtitle={'a web app connecting car washers with customers using React & Redux and Google\'s Firebase database service'}
+          subtitle={'a React Native mobile app connecting car washers with customers using Redux for handling state and Google\'s Cloud Firestore for storing data'}
+          subtitleStyle={{}}
           image= {'src/public/images/wip.jpg'}
           />
 
