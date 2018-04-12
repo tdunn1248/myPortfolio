@@ -24,7 +24,6 @@ export default class App extends Component {
       <MuiThemeProvider >
         <div id='app' className='app'>
           <Header  />
-          <HomePageBackground />
           <GridListExampleSingleLine style={style.gridList}/>
           <ProjectsHeader />
           <Section >
