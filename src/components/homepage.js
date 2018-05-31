@@ -6,7 +6,6 @@ export default class HomePageBackground extends Component {
     return (
       <div className='homepage-background'>
         <div className='homepage-welcome'>
-          
         </div>
       </div>
     )
